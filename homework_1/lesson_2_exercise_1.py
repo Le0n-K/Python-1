@@ -28,6 +28,25 @@ c = a + b    # сумма предыдущих и текущих показат�
 print(c)
 print(f'Sum for electricity is {c}')
 
+# диалог с пользователем
+
+n = 0
+
+el_previous = input("Enter your previous electricity readings:" )
+print(f'Your previous readings is {el_previous}')
+
+el_current = input("Enter your current electricity readings:")
+print(f'Your current readings is {el_current}')
+
+el_tariff = input("Enter your electricity tariff:")
+print(f'Your tariff is {el_tariff}')
+
+yes = input("Do you want to know your sum readings for electricity?")
+yes = c
+print(f'Your sum is {yes}')
+
+no = input("Do you want to know your sum readings for electricity?")
+no = n
 
 # water
 
@@ -50,8 +69,36 @@ print(f)
 print(round(f, 2))
 print(f'Sum for water is {round(f, 2)}')
 
+i = 0
+
+w_previous = input("Enter your previous water readings:" )
+print(f'Your previous readings is {w_previous}')
+
+w_current = input("Enter your current water readings:")
+print(f'Your current readings is {w_current}')
+
+w_tariff = input("Enter your water tariff:")
+print(f'Your tariff is {w_tariff}')
+
+yes = input("Do you want to know your sum readings for water?")
+yes = round(f, 2)
+print(f'Your sum is {yes}')
+
+no = input("Do you want to know your sum readings for water?")
+no = i
+
 # sum for water and electricity
 
-x = c + f
+x = c + round(f, 2)
 print(x)
 print(f'All you need to pay for water and electricity {x}')
+
+j = 0
+
+yes = input("Do you want to know your sum readings for water and electricity?")
+yes = x
+print(f'Your sum is {yes}')
+
+no = input("Do you want to know your sum readings for water and electricity?")
+no = j
+
