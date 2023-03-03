@@ -15,16 +15,3 @@ print(f'"Day" was found at position {a}')
 user_repl = input(f'With what do you want to replace?')
 b = user_input.replace('day', 'night')
 print(input(f'Here is your result:\n {b}'))
-
-
-
-
-
-
-
-
-
-
-
-
-
