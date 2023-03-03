@@ -1,6 +1,6 @@
 # пользователь вводит строку
 user_input = input(f'Please, input your string:')
-# пользователь пишет "Today is a RainY Day! do you like It? By the Way, i don't."
+
 u = user_input.lower()
 u = user_input.strip('.')
 u = user_input.strip(',')
